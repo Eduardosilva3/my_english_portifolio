@@ -4,15 +4,15 @@ Files:
 - index.html
 - styles.css
 - script.js
+- assets/
+
+Content:
+- Ventures Basic Units 1 to 10
+- Personal presentation
+- Vocabulary, grammar, conversations, life-skills focus, and reflections
 
 How to use:
 1. Extract the ZIP.
 2. Open index.html in your browser.
 3. Replace the image placeholders with your own photos if you want.
 4. Update any personal text as needed.
-
-Suggested images:
-- Hero: travel photo or portrait
-- Unit 1: personal photo
-- Unit 2: study/classroom photo
-- Unit 3: family or friends photo

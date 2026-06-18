@@ -280,3 +280,71 @@ body {
 .family-img.baby:hover {
   transform: rotate(270deg) scale(1.05);
 }
+
+/* Updated visual cards and Kahoot section */
+.visual-card,
+.photo-card {
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: rgba(7, 16, 41, 0.72);
+  border: 1px solid rgba(132, 190, 255, 0.16);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.28);
+}
+
+.visual-card img,
+.photo-card img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.visual-card img {
+  min-height: 300px;
+  max-height: 430px;
+}
+
+.visual-card figcaption,
+.photo-card figcaption {
+  padding: 12px 14px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  border-top: 1px solid rgba(132, 190, 255, 0.12);
+}
+
+.photo-card img {
+  height: 220px;
+}
+
+.kahoot-highlight {
+  margin-bottom: 18px;
+}
+
+.kahoot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.kahoot-main-card img {
+  min-height: 320px;
+}
+
+.gallery-grid .photo-card img {
+  height: 210px;
+}
+
+.summary-grid .panel h3 {
+  color: var(--accent-2);
+}
+
+@media (max-width: 1100px) {
+  .kahoot-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 700px) {
+  .kahoot-grid { grid-template-columns: 1fr; }
+  .photo-card img { height: 190px; }
+}
